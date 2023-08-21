@@ -1,0 +1,102 @@
+@font-face  {
+    font-family: 'Font Name';
+    src: url('./fonts/font-name.eot');
+    src: url('./fonts/font-name.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/font-name.woff2') format('woff2'),
+         url('./fonts/font-name.woff') format('woff'),
+         url('./fonts/font-name.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-family: "dimensions", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    font-size: 250px;
+    color: #ffffff;
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: "dimensions", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 22px;
+    font-size: 70px;
+    margin-top: 17px;
+    color: #a31101;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: decimal;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    padding-left: 245px;
+    font-size: 150px;
+    letter-spacing: 5px;
+    line-height: 120px;
+    margin-bottom: 1px;
+}
+
+a {
+    font-family: "dimensions", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #a31101;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.links-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
