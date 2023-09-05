@@ -1,0 +1,137 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Define global styles for body and text */
+  body {
+    background-color: #000000; /* Dark background */
+    color: #fff; /* Text color */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000000; /* Header background color */
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  /* Main container styles */
+  #main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Controls container styles */
+  #controls {
+    background-color: #000000; /* Controls background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for controls */
+    width: 250px; /* Adjust the width of the controls container */
+    height: 550px; 
+  }
+
+  
+  /* Dropdown styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    background-color: #313131; /* Dropdown background color */
+    color: #ffffff; /* Dropdown text color */
+    border: white;
+    border-radius: 10px; /* Rounded dropdown */
+    outline: none;
+    margin-bottom: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #dcffdd; /* Button background color */
+    color: #121212; /* Button text color */
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px; /* Rounded buttons */
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #6fb979; /* Hover background color */
+  }
+  
+  /* Slider styles */
+  .slider {
+    width: 100%; /* Set the width of the slider */
+    margin: 10px 0; /* Add some margin for spacing */
+    -webkit-appearance: none; /* Remove default styling on Webkit browsers */
+    appearance: none; /* Remove default styling on other browsers */
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb appearance on Webkit browsers */
+    appearance: none; /* Remove default thumb appearance on other browsers */
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    background: #e7e7e7; /* Set the thumb color */
+    border-radius: 50%; /* Make the thumb round */
+    cursor: pointer; /* Add a pointer cursor */
+  }
+  
+  .slider::-webkit-slider-thumb:hover {
+    background: #e7e7e7; /* Change thumb color on hover */
+  }
+  
+  .slider::-webkit-slider-thumb:active {
+    background: #e7e7e7; /* Change thumb color on click */
+  }
+
+  #slider1 {
+    width: 100%;
+    height: 10px; /* Reduced height for sliders */
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 0, 0)); /* Color gradient for sliders */
+    border: none;
+    border-radius: 10px; /* Rounded slider handle */
+    -webkit-appearance: none;
+    outline: none;
+  }
+  #slider2 {
+    width: 100%;
+    height: 10px; /* Reduced height for sliders */
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 255, 0)); /* Color gradient for sliders */
+    border: none;
+    border-radius: 10px; /* Rounded slider handle */
+    -webkit-appearance: none;
+    outline: none;
+  }
+  #slider3 {
+    width: 100%;
+    height: 10px; /* Reduced height for sliders */
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255)); /* Color gradient for sliders */
+    border: none;
+    border-radius: 10px; /* Rounded slider handle */
+    -webkit-appearance: none;
+    outline: none;
+
+  }
